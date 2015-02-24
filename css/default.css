@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 300px !important;
+	background-color: #f2f1f0;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+.hidden {
+	display: none;
+}
+.input-error {
+	background-color: #910707;
+	color: #000;
+}
+.top {
+	cursor: pointer;
+	width: 100vw;
+	height: 20vh;
+	background-image: url('../images/png/hotjobs.png');
+	background-size: 20vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.search {
+	font-family: Ubuntu;
+}
+	/*TOP*/
+	
+	/*CENTER*/
+	.search .center {
+	}
+		.main .center .label {
+			width: calc(100vw - 10vw);
+			padding-left: 5vw;
+			padding-right: 5vw;
+			font-size: 15px;
+			color:#26105d;
+			font-weight: bold;
+			cursor: default;
+		}
+		.search .center .input {
+			background-color:#fff;
+			white-space: nowrap;
+			overflow: hidden;
+			height: 5vh;
+			width: calc(100vw - 10vw - 4px);
+			padding-left: 5vw;
+			padding-right: 5vw;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-size: 5vh;
+			color:#26105d;
+			font-weight: bold;
+			border: 2px solid #26105d;
+			margin-bottom: 10px;
+		}
+		.search .center .select {
+			background-color:#fff;
+			width: calc(100vw);
+			padding-left: 5vw;
+			padding-right: 5vw;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-size: 15px;
+			color:#26105d;
+			font-weight: bold;
+			border: 2px solid #26105d;
+			margin-bottom: 10px;
+			cursor: pointer;
+		}
+	/*FOOTER*/
+	.search .footer {
+		width: 100vw;
+		height: 10vh;
+	}
+		.search .footer .btn {
+			line-height: 10vh;
+			background-color: #26105d;
+			color:#fff;
+			cursor: pointer;
+			font-weight: bold;
+			text-align: center;
+		}
+/**/
+.joblist {
+}
+	.joblist .center {
+	}
+		.joblist .center .item:hover  {
+			background-color: #141414;
+			color:#fff;
+		}
+		.joblist .center .item  {
+			width: calc(100vw - 10vw);
+			padding-left: 5vw;
+			padding-right: 5vw;
+			padding-top: 5vh;
+			padding-bottom: 5vw;
+			cursor: pointer;
+		}
+			.joblist .center .item .headline {
+				text-overflow: ellipsis;
+  			  	overflow:hidden !important;
+				white-space: nowrap;
+				font-weight: bold;
+				font-size: 5vh;
+				margin-bottom: 2vw;
+			}
+			.joblist .center .item .body {
+				
+			}
+
+	.joblist .number-of-matches {	
+		text-align: center;
+		font-weight: bold;
+		font-size:2vh;
+		margin-bottom: 5vh;
+	}
+
+.jobview {
+}
+	.jobview .center {
+	}
+		.jobview .center h1 {
+			font-weight: bold;
+			font-size: 5vh;
+			margin: 2vw 2vh;
+		}
+			.jobview .center h1 a {
+				color:#141414;
+				text-decoration: none;
+			}
+				.jobview .center h1 a:hover {
+					text-decoration: underline;
+				}
+		.jobview .center .purpose {
+			margin: 0vw 2vh 0vw 2vh;
+			font-size: 15px;
+		}
+

@@ -1,0 +1,87 @@
+<!doctype="html"/>
+<html>
+	<head>
+        <link rel="manifest" href="manifest.json">
+		<link rel="icon" type="image/png" href="images/png/hotjobs100x90.png" />
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<script src="js/lib/jquery-1.11.2.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <bod>
+    	<!-- SEARCH -------------------------- -->
+        <div class="search">
+        	<div class="top"></div>
+        	<div class="center">
+       			<div class="label">Fritekst</div>
+        		<div class="input query" contenteditable="true" tabindex="0"></div>
+
+       			<div class="label">Postnumre</div>
+        		<div class="input zipcode" contenteditable="true" tabindex="0"></div>
+
+       			<div class="label">Erhvervsområder</div>
+        		<select class="select commercial-areas">
+        			<option value="0">Alle erhvervsområder</option>
+        			<option value="210000">Akademisk arbejde</option>
+        			<option value="40000">Bygge og anlæg</option>
+        			<option value="150000">Design, formgivning og grafisk arbejde</option>
+        			<option value="230000">Elever</option>
+        			<option value="130000">Hotel, restauration, køkken, kantine</option>
+        			<option value="60000">Industriel produktion</option>
+        			<option value="110000">It og teleteknik</option>
+        			<option value="50000">Jern, metal og auto</option>
+        			<option value="80000">Kontor, administration, regnskab og finans</option>
+        			<option value="170000">Landbrug, skovbrug, gartneri, fiskeri og dyrepleje</option>
+        			<option value="220000">Ledelse</option>
+        			<option value="100000">Medie, kultur, turisme, idræt og underholdning</option>
+        			<option value="190000">Nærings- og nydelsesmiddel</option>
+        			<option value="30000">Pædagogisk, socialt og kirkeligt arbejde</option>
+        			<option value="140000">Rengøring, ejendomsservice og renovation</option>
+        			<option value="90000">Salg, indkøb og markedsføring</option>
+        			<option value="10000">Sundhed, omsorg og personlig pleje</option>
+        			<option value="180000">Tekstil og beklædning</option>
+        			<option value="120000">Transport, post, lager- og maskinførerarbejde</option>
+        			<option value="200000">Træ, møbel, glas og keramik</option>
+        			<option value="20000">Undervisning og vejledning</option>
+        			<option value="160000">Vagt, sikkerhed og overvågning</option>
+        		</select>
+
+       			<div class="label">Ansættelsesvilkår</div>
+        		<select class="select employment-practices">
+        			<option value="0">Alle vilkår</option>
+        			<option value="1">Fastansættelse</option>
+        			<option value="2">Fleksjob</option>
+        			<option value="3">Skånejob</option>
+        			<option value="4">Egnet til efterlønnere</option>
+        			<option value="5">Job med løntilskud</option>
+        			<option value="6">Rotationsjob</option>
+        			<option value="7">Virksomhedspraktik</option>
+        		</select>
+
+       			<div class="label">Ansættelsesform.</div>
+        		<select class="select recruitment-form">
+        			<option value="0">Alle former</option>
+        			<option value="1">Almindelige vilkår</option>
+        			<option value="16">Tidsbegrænset </option>
+        		</select>
+        	</div>
+        	<div class="footer">
+        		<div class="btn run-query">Søg</div>
+        	</div>
+        </div>
+        <!-- JOBLIST -------------------------- -->
+        <div class="joblist hidden">
+            <div class="top"></div>
+            <div class="number-of-matches"></div>
+        	<div class="center"></div>
+        </div>
+
+        <!-- VIEWJOB --------------------------- -->
+        <div class="jobview hidden">
+            <div class="top"></div>
+            <div class="center"></div>
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>
