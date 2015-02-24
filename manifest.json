@@ -4,10 +4,12 @@
 	"description": "Find hotjobs fra jobnet.dk lige i din browser :)",
 	"name": "hotjobs",
 	"icons": {
-		"128": "images/png/hotjobs100x90.png"
+		"16": "images/png/hotjobs16x16.png",
+		"48": "images/png/hotjobs48x48.png",
+		"128": "images/png/hotjobs128x128.png"
 	},
 	"browser_action": {
-	    "default_icon": "images/png/hotjobs100x90.png",
+	    "default_icon": "images/png/hotjobs128x128.png",
     	"default_popup": "index.html"
   	},
 	"permissions": [
