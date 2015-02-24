@@ -3,7 +3,7 @@
 
 #hotjobs-chrome-extension
 
-Lookup hotjobs from [jobnet.dk](https://job.jobnet.dkk) in you browser with this [chrome-extension](https://github.com/voidcode/hotjobs-chrome-extension/raw/master/hotjobs-extensions.crx).
+Lookup hotjobs from [jobnet.dk](https://job.jobnet.dkk) in you browser with this [chrome-extension](https://github.com/voidcode/hotjobs-chrome-extension/raw/master/hotjobs-extensions-0.1.crx).
 
 ![](https://raw.githubusercontent.com/voidcode/hotjobs-chrome-extension/master/PR/search.png)
 ---
