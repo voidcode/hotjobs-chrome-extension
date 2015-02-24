@@ -18,3 +18,7 @@ Then you will see the infomation abort the job. (Press on the title to open the 
 
 ![](https://raw.githubusercontent.com/voidcode/hotjobs-chrome-extension/master/PR/jobview.png)
 ---
+
+How to Install Extensions that Aren't from the Official Chrome Web Store
+
+![](http://lifehacker.com/5919997/how-to-install-extensions-that-arent-from-the-official-chrome-web-store)
