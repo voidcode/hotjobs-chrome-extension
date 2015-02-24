@@ -21,4 +21,10 @@ Then you will see the infomation abort the job. (Press on the title to open the 
 
 How to Install Extensions that Aren't from the Official Chrome Web Store
 
-![](http://lifehacker.com/5919997/how-to-install-extensions-that-arent-from-the-official-chrome-web-store)
+[How to Install Extensions that Aren't from the Official Chrome Web Store](http://lifehacker.com/5919997/how-to-install-extensions-that-arent-from-the-official-chrome-web-store)
+
+1. Instead of opening the extension you'd like to install directly, right-click the download link and select Save Link As to download the extension to your desktop.
+
+2. Open Chrome's extensions page in your browser by pasting chrome://chrome/extensions/ into your address bar and pressing Enter.
+
+3. Drag and drop the extension you just downloaded into the Chrome extensions page.
